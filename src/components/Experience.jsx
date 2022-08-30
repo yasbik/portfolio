@@ -3,10 +3,16 @@ import html from '../assets/html.png';
 import css from '../assets/css.png';
 import javascript from '../assets/javascript.png';
 import reactImage from '../assets/react.png'
-import nextjs from '../assets/nextjs.png';
-import graphql from '../assets/graphql.png';
+import nodejs from '../assets/nodejs.png';
+import sql from '../assets/sql.png';
 import github from '../assets/github.png';
 import tailwind from '../assets/tailwind.png';
+import java from '../assets/java.png';
+import python from '../assets/python.jpg'
+import neo4j from '../assets/neo4j.png';
+import android from '../assets/android.png';
+import bootstrap from '../assets/bootstrap.png';
+import c from '../assets/c.png';
 
 const Experience = () => {
 
@@ -31,27 +37,27 @@ const Experience = () => {
     },
     {
       id: 4,
-      src: reactImage,
-      title: 'React',
-      style: 'shadow-blue-600'
+      src: c,
+      title: 'C/C++',
+      style: 'shadow-violet-500'
     },
     {
       id: 5,
-      src: tailwind,
-      title: 'Tailwind',
-      style: 'shadow-sky-400'
+      src: java,
+      title: 'Java',
+      style: 'shadow-red-600'
     },
     {
       id: 6,
-      src: nextjs,
-      title: 'Next JS',
-      style: 'shadow-white'
+      src: nodejs,
+      title: 'Node.js',
+      style: 'shadow-lime-600'
     },
     {
       id: 7,
-      src: graphql,
-      title: 'GraphQL',
-      style: 'shadow-pink-400'
+      src: sql,
+      title: 'SQL',
+      style: 'shadow-gray-400'
     },
     {
       id: 8,
@@ -59,23 +65,59 @@ const Experience = () => {
       title: 'GitHub',
       style: 'shadow-gray-400'
     },
+    {
+      id: 9,
+      src: reactImage,
+      title: 'React',
+      style: 'shadow-blue-600'
+    },
+    {
+      id: 10,
+      src: android,
+      title: 'Android Studio',
+      style: 'shadow-green-600'
+    },
+    {
+      id: 11,
+      src: tailwind,
+      title: 'Tailwind',
+      style: 'shadow-sky-400'
+    },
+    {
+      id: 12,
+      src: python,
+      title: 'Python',
+      style: 'shadow-yellow-600'
+    },
+    {
+      id: 13,
+      src: neo4j,
+      title: 'Neo4J',
+      style: 'shadow-indigo-500'
+    },
+    {
+      id: 14,
+      src: bootstrap,
+      title: 'Bootstrap',
+      style: 'shadow-purple-800'
+    },
   ];
 
 
   return (
-    <div name='experience' className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
+    <div name='experience' className='bg-gradient-to-b from-zinc-800 to-black w-full h-screen'>
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
         <div>
-          <p className='text-4xl font-bold border-b-4 border-orange-600 p-2 inline'>Experience</p>
-          <p className='py-4'>These are the some of the technologies I have worked with</p>
+          <p className='text-4xl font-bold border-b-4 border-orange-600 p-2 inline'>Technical</p>
+          <p className='py-4 mt-6'>These are the some of the tools/technologies/frameworks I have worked with</p>
         </div>
 
-        <div className='w-full grid grid-cols-3 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0'>
+        <div className='w-full grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-8 text-center py-4 px-4 sm:px-0'>
 
           {techs.map(({id, src, title, style}) => (
 
             <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-              <img src={src} alt="" className='w-20 mx-auto' />
+              <img src={src} alt="" className='w-14 mx-auto' />
               <p className='mt-4'>{title}</p>
             </div>
           ))}

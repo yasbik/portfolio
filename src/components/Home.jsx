@@ -10,12 +10,12 @@ const Home = () => {
       className="h-screen w-full bg-gradient-to-b from-black via-black to-zinc-800"
     >
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
-        <div className='flex flex-col justify-center h-full'>
-          <br />
-          <br />
-          <br />
-          <br />
 
+        <div>
+          <p className='my-60'>  </p>
+        </div>
+        
+        <div className='flex flex-col justify-center h-full'>
           <h3 className='font-bold text-xl sm:text-2xl text-orange-600'>Hi, my name is</h3>
 
           <h1 className='text-4xl sm:text-6xl font-bold text-white py-4 mr-3'>Abu Yasin Sabik</h1>
@@ -45,6 +45,9 @@ const Home = () => {
 
         <div>
           <img src={HeroImage} alt="My Personal Portrait" className='rounded-2xl mx-auto w-3/5 md:w-4/5' />
+        </div>
+        <div>
+          <p className='my-40'>  </p>
         </div>
       </div>
     </div>
