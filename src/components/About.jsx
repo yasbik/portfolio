@@ -2,22 +2,31 @@ import React from 'react';
 
 const About = () => {
   return (
-  <div name="about" className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
+  <div 
+    name="about" 
+    className='w-full h-screen bg-gradient-to-b from-zinc-800 to-black text-white'
+  >
     <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-      <div className='pb-8'>
-        <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
+      <div className='py-4'>
+        <br />
+        <br />
+        <br />
+        <p className='text-4xl font-bold inline border-b-4 border-orange-600'>About</p>
       </div>
 
-      <p className='text-xl mt-20'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consectetur dignissimos ipsam minus animi aliquam. Architecto ea ex, reprehenderit qui deleniti vitae enim error fugit quibusdam quae, eos, iure dicta.
-      </p>
+      <p className='mt-5' align="justify">
+        I am a recent graduate from the University of Manitoba with a Bachelor of Science (B.Sc.) in Computer Science. My four years of studying computer science have given me a strong command of important programming and computer science concepts, as well as in-depth knowledge of core software engineering principles, development practices, and design patterns.
 
-      <br />
+        <br />
+        <br />
 
-      <p className='text-xl'>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi ad quasi sunt officia itaque blanditiis quos placeat tempore doloremque nulla, facere repellat praesentium, delectus aut molestias quae eaque suscipit minima!
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, libero doloribus cupiditate reprehenderit voluptas harum, a cumque architecto assumenda quis laborum. Ipsam modi tempore dolore maxime quis inventore et voluptatum.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis saepe maiores at labore debitis odit. Nihil, incidunt. Aliquid dolorem deleniti eius fugiat impedit culpa rerum nam, voluptatum iusto. Cum, ipsa.
+        Aside from academia, I am also very passionate about the computer science field, and spend most of my free time enhancing my coding skills or learning new technology/software. Always striving to improve, I have worked on and contributed to several high functioning and scalable projects, all of which have broadened my expertise and understanding of the full stack of software development, including web development and mobile development. 
+
+        <br />
+        <br />
+
+        Additionally, I have several years of experience in marketing, sales and customer service, giving me excellent interpersonal skills, and the ability to work well in a team or independently with minimal supervision. I managed to do all of these while being a full-time student, further demonstrating my diligence and ability to handle multiple tasks of varying importance. 
+
       </p>
     </div>
   </div>
