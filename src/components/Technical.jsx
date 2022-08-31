@@ -5,13 +5,13 @@ import javascript from '../assets/javascript.png';
 import reactImage from '../assets/react.png'
 import nodejs from '../assets/nodejs.png';
 import sql from '../assets/sql.png';
-import github from '../assets/github.png';
+// import github from '../assets/github.png';
 import tailwind from '../assets/tailwind.png';
 import java from '../assets/java.png';
 import python from '../assets/python.jpg'
 import neo4j from '../assets/neo4j.png';
 import android from '../assets/android.png';
-import bootstrap from '../assets/bootstrap.png';
+// import bootstrap from '../assets/bootstrap.png';
 import c from '../assets/c.png';
 
 const Technical = () => {
@@ -59,12 +59,12 @@ const Technical = () => {
       title: 'SQL',
       style: 'shadow-yellow-800'
     },
-    {
-      id: 8,
-      src: github,
-      title: 'GitHub',
-      style: 'shadow-gray-400'
-    },
+    // {
+    //   id: 8,
+    //   src: github,
+    //   title: 'GitHub',
+    //   style: 'shadow-gray-400'
+    // },
     {
       id: 9,
       src: reactImage,
@@ -95,22 +95,22 @@ const Technical = () => {
       title: 'Neo4J',
       style: 'shadow-indigo-500'
     },
-    {
-      id: 14,
-      src: bootstrap,
-      title: 'Bootstrap',
-      style: 'shadow-purple-800'
-    },
+    // {
+    //   id: 14,
+    //   src: bootstrap,
+    //   title: 'Bootstrap',
+    //   style: 'shadow-purple-800'
+    // },
   ];
 
 
   return (
     <div 
       name='technical' 
-      className='bg-gradient-to-b from-black to-zinc-800 w-full h-screen'
+      className='bg-gradient-to-b from-black to-slate-800 w-full h-screen'
     >
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
-        <div className='mt-36'>
+        <div className='mt-20'>
           <p className='text-4xl font-bold border-b-4 border-orange-600 inline my-20'>
             Technical
           </p>
@@ -120,7 +120,7 @@ const Technical = () => {
           </p>
         </div>
 
-        <div className='w-full grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-8 text-center py-4 px-4 sm:px-0'>
+        <div className='w-full grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 gap-8 text-center py-4 px-4 sm:px-0'>
 
           {techs.map(({id, src, title, style}) => (
 

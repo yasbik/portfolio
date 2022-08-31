@@ -2,7 +2,7 @@ import React from 'react';
 import ixalan from '../assets/portfolio/ixalan2.png';
 import chowtown from '../assets/portfolio/chowTown.png';
 import findingaurora from '../assets/portfolio/findingAurora.png';
-import reactParallax from '../assets/portfolio/reactParallax.jpg';
+import wbport from '../assets/portfolio/portfolio.png';
 
 const Projects = () => {
 
@@ -30,7 +30,7 @@ const Projects = () => {
     },
     {
       id: 4,
-      src: reactParallax,
+      src: wbport,
       text: "Personal Portfolio Website"
     },
   ];
@@ -38,11 +38,11 @@ const Projects = () => {
   return (
     <div 
       name="projects" 
-      className='bg-gradient-to-b from-zinc-800  to-black w-full text-white md:h-screen'
+      className='bg-gradient-to-b from-slate-800  to-black w-full text-white md:h-screen'
     >
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
         
-        <div className='pb-4 mt-20'>
+        <div className='pb-4 mt-2'>
           <p className='text-4xl font-bold inline border-b-4 border-orange-600'>
             Projects
           </p>
