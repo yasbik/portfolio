@@ -14,7 +14,7 @@ import android from '../assets/android.png';
 import bootstrap from '../assets/bootstrap.png';
 import c from '../assets/c.png';
 
-const Experience = () => {
+const Technical = () => {
 
   const techs = [
     {
@@ -57,7 +57,7 @@ const Experience = () => {
       id: 7,
       src: sql,
       title: 'SQL',
-      style: 'shadow-gray-400'
+      style: 'shadow-yellow-800'
     },
     {
       id: 8,
@@ -79,15 +79,15 @@ const Experience = () => {
     },
     {
       id: 11,
-      src: tailwind,
-      title: 'Tailwind',
-      style: 'shadow-sky-400'
-    },
-    {
-      id: 12,
       src: python,
       title: 'Python',
       style: 'shadow-yellow-600'
+    },
+    {
+      id: 12,
+      src: tailwind,
+      title: 'Tailwind',
+      style: 'shadow-sky-400'
     },
     {
       id: 13,
@@ -105,11 +105,19 @@ const Experience = () => {
 
 
   return (
-    <div name='experience' className='bg-gradient-to-b from-zinc-800 to-black w-full h-screen'>
+    <div 
+      name='technical' 
+      className='bg-gradient-to-b from-black to-zinc-800 w-full h-screen'
+    >
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
-        <div>
-          <p className='text-4xl font-bold border-b-4 border-orange-600 p-2 inline'>Technical</p>
-          <p className='py-4 mt-6'>These are the some of the tools/technologies/frameworks I have worked with</p>
+        <div className='mt-36'>
+          <p className='text-4xl font-bold border-b-4 border-orange-600 inline my-20'>
+            Technical
+          </p>
+
+          <p className='py-4 font-bold'>
+            These are the some of the tools/technologies I have worked with
+          </p>
         </div>
 
         <div className='w-full grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-8 text-center py-4 px-4 sm:px-0'>
@@ -117,8 +125,8 @@ const Experience = () => {
           {techs.map(({id, src, title, style}) => (
 
             <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-              <img src={src} alt="" className='w-14 mx-auto' />
-              <p className='mt-4'>{title}</p>
+              <img src={src} alt="" className='w-10 mx-auto' />
+              <p className='mt-2'>{title}</p>
             </div>
           ))}
         </div>
@@ -127,4 +135,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Technical;
