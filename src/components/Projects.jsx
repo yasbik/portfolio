@@ -42,7 +42,7 @@ const Projects = () => {
     >
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
         
-        <div className='pb-4 mt-2'>
+        <div className='pb-4 mt-12'>
           <p className='text-4xl font-bold inline border-b-4 border-orange-600'>
             Projects
           </p>

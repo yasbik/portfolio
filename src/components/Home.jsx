@@ -13,8 +13,10 @@ const Home = () => {
     >
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
         
-        <div className='flex flex-col justify-center h-full'>
-          <h3 className='font-bold sm:text-xl text-gray-400'>Hello, world!</h3>
+        <div className='flex flex-col justify-center h-full mt-20'>
+          <h3 className='font-bold sm:text-xl text-gray-400'>
+            Hello, world!
+          </h3>
 
           {/* <h1 className='text-4xl sm:text-6xl font-bold text-white py-4 mr-3'>Abu Yasin Sabik</h1> */}
 
