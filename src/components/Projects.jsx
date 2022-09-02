@@ -66,7 +66,7 @@ const Projects = () => {
               <a href={href}>
                 <img 
                   src={src} 
-                  alt="Project Image" 
+                  alt="Project Thumbnail" 
                   className='rounded-md duration-200 hover:scale-105' 
                 />
 
