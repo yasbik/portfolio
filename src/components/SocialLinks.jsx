@@ -5,6 +5,7 @@ import {BsFillPersonLinesFill} from 'react-icons/bs';
 
 const SocialLinks = () => {
 
+  // Socials array
   const links = [
     {
       id: 1,
@@ -51,9 +52,11 @@ const SocialLinks = () => {
   ];
 
   return (
+    // Primary container
     <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
+      
+      {/* Socials list */}
       <ul>
-
         {links.map(({id, child, href, style, download}) => (
           <li 
             key={id} 

@@ -6,6 +6,7 @@ import wbport from '../assets/portfolio/portfolio.png';
 
 const Projects = () => {
 
+  // Projects array
   const projects = [
     {
       id: 1,
@@ -31,7 +32,8 @@ const Projects = () => {
     {
       id: 4,
       src: wbport,
-      text: "Personal Portfolio Website"
+      text: "Personal Portfolio Website",
+      href: "https://github.com/yasbik/portfolio"
     },
   ];
 
@@ -40,8 +42,10 @@ const Projects = () => {
       name="projects" 
       className='bg-gradient-to-b from-slate-800  to-black w-full text-white md:h-screen'
     >
+      {/* Primary container */}
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
         
+        {/* Heading */}
         <div className='pb-4 mt-12'>
           <p className='text-4xl font-bold inline border-b-4 border-orange-600'>
             Projects
@@ -51,19 +55,22 @@ const Projects = () => {
           </p>
         </div>
 
+        {/* Display projects */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
           {projects.map(({id, src, title, text, href}) => (
             <div 
               key={id} 
               className='shadow-md shadow-gray-600 rounded-lg'
             >
+              {/* Thumbnails */}
               <a href={href}>
                 <img 
                   src={src} 
-                  alt="ProjectImage" 
+                  alt="Project Image" 
                   className='rounded-md duration-200 hover:scale-105' 
                 />
 
+                {/* Descriptions */}
                 <button className='flex items-center justify-center w-full px-3 py-3 duration-200 hover:scale-105'>
                   {title}{text}
                 </button>

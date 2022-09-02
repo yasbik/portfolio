@@ -6,14 +6,17 @@ const About = () => {
     name="about" 
     className='w-full h-screen bg-gradient-to-b from-slate-800  to-black text-white'
   >
+    {/* Primary container */}
     <div 
       className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full' 
       align="justify"
-    >      
+    >
+      {/* Heading */}
       <div className='py-4'>
         <p className='text-4xl font-bold inline border-b-4 border-orange-600'>About</p>
       </div>
 
+      {/* Description */}
       <p className='mt-5'>
         My name is Abu Yasin Sabik. I am a recent graduate from the University of Manitoba with a Bachelor of Science (B.Sc.) in Computer Science. The program has given me a strong command of important programming and computer science concepts, as well as in-depth knowledge of core software engineering principles, development practices, and design patterns. 
       </p>

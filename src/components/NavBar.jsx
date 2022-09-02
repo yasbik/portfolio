@@ -6,6 +6,7 @@ const NavBar = () => {
 
   const [nav, setNav] = useState(false);
 
+  // Sections array
   const links = [
     {
       id: 1,
@@ -30,7 +31,8 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-14 px-4 text-white bg-black fixed">
+    // Primary container
+    <div className="flex justify-between items-center w-full h-14 px-4 text-white bg-black fixed z-50">
       <div>
         <h1 className="cursor-pointer text-3xl font-signature ml-2">
           <Link to="home" smooth duration={500}>
@@ -39,6 +41,7 @@ const NavBar = () => {
         </h1>
       </div>
 
+      {/* Sections */}
       <ul className="hidden md:flex">
         {links.map(({id, link}) => (
           <li 
@@ -59,6 +62,7 @@ const NavBar = () => {
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
 
+      {/* Smooth scroll function */}
       {nav && (
         <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-zinc-800 text-gray-500">
           {links.map(({id, link}) => (

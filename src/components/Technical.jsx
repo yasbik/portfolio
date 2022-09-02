@@ -5,17 +5,19 @@ import javascript from '../assets/javascript.png';
 import reactImage from '../assets/react.png'
 import nodejs from '../assets/nodejs.png';
 import sql from '../assets/sql.png';
-// import github from '../assets/github.png';
 import tailwind from '../assets/tailwind.png';
 import java from '../assets/java.png';
 import python from '../assets/python.jpg'
 import neo4j from '../assets/neo4j.png';
 import android from '../assets/android.png';
-// import bootstrap from '../assets/bootstrap.png';
 import c from '../assets/c.png';
+// import bootstrap from '../assets/bootstrap.png';
+// import github from '../assets/github.png';
+
 
 const Technical = () => {
 
+  // Skillset array
   const techs = [
     {
       id: 1,
@@ -59,26 +61,20 @@ const Technical = () => {
       title: 'SQL',
       style: 'shadow-yellow-800'
     },
-    // {
-    //   id: 8,
-    //   src: github,
-    //   title: 'GitHub',
-    //   style: 'shadow-gray-400'
-    // },
     {
-      id: 9,
+      id: 8,
       src: reactImage,
       title: 'React',
       style: 'shadow-blue-600'
     },
     {
-      id: 10,
+      id: 9,
       src: android,
       title: 'Android Studio',
       style: 'shadow-green-600'
     },
     {
-      id: 11,
+      id: 10,
       src: python,
       title: 'Python',
       style: 'shadow-yellow-600'
@@ -90,11 +86,17 @@ const Technical = () => {
       style: 'shadow-sky-400'
     },
     {
-      id: 13,
+      id: 12,
       src: neo4j,
       title: 'Neo4J',
       style: 'shadow-indigo-500'
     },
+    // {
+    //   id: 8,
+    //   src: github,
+    //   title: 'GitHub',
+    //   style: 'shadow-gray-400'
+    // },
     // {
     //   id: 14,
     //   src: bootstrap,
@@ -109,7 +111,10 @@ const Technical = () => {
       name='technical' 
       className='bg-gradient-to-b from-black to-slate-800 w-full h-screen'
     >
+      {/* Primary container */}
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
+
+        {/* Heading */}
         <div className='mt-20'>
           <p className='text-4xl font-bold border-b-4 border-orange-600 inline my-20'>
             Technical
@@ -120,13 +125,23 @@ const Technical = () => {
           </p>
         </div>
 
+        {/* Skillset list */}
         <div className='w-full grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 gap-8 text-center py-4 px-4 sm:px-0'>
-
           {techs.map(({id, src, title, style}) => (
 
             <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-              <img src={src} alt="" className='w-10 mx-auto' />
-              <p className='mt-2'>{title}</p>
+
+              {/* Thumbnail */}
+              <img 
+                src={src} 
+                alt="Technical skill thumbnail" 
+                className='w-10 mx-auto' 
+              />
+              
+              {/* Skill name */}
+              <p className='mt-2'>
+                {title}
+              </p>
             </div>
           ))}
         </div>
