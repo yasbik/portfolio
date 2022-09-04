@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroImage from "../assets/heroImage.png";
+import HeroImage from "../assets/profile.png";
 import {TbArrowRightCircle} from 'react-icons/tb';
 import {Link} from 'react-scroll';
 import Typed from 'react-typed';
@@ -72,7 +72,7 @@ const Home = () => {
           <img 
             src={HeroImage} 
             alt="My Personal Portrait" 
-            className='rounded-2xl pl-4 mx-auto w-2/3 md:w-full' 
+            className='rounded-3xl px-4 mx-auto w-2/3 md:w-full' 
           />
         </div>
       </div>
