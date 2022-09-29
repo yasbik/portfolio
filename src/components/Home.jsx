@@ -30,7 +30,7 @@ const Home = () => {
                 strings={[
                   "Abu Yasin Sabik.",
                   "a Computer Science Graduate.",
-                  "an aspiring Software Developer.",
+                  "an aspiring Software Engineer.",
                   "a lifelong learner."
                 ]}
                 typeSpeed={50}
