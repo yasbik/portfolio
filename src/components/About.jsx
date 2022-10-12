@@ -4,7 +4,7 @@ const About = () => {
   return (
   <div 
     name="about" 
-    className='w-full h-screen bg-gradient-to-b from-slate-800  to-black text-white'
+    className='w-full min-h-screen bg-gradient-to-b from-slate-800  to-black text-white'
   >
     {/* Primary container */}
     <div 

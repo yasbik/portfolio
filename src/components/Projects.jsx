@@ -40,7 +40,7 @@ const Projects = () => {
   return (
     <div 
       name="projects" 
-      className='bg-gradient-to-b from-slate-800  to-black w-full text-white md:h-screen'
+      className='bg-gradient-to-b from-slate-800  to-black w-full text-white md:min-h-screen'
     >
       {/* Primary container */}
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>

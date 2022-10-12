@@ -109,7 +109,7 @@ const Technical = () => {
   return (
     <div 
       name='technical' 
-      className='bg-gradient-to-b from-black to-slate-800 w-full h-screen'
+      className='bg-gradient-to-b from-black to-slate-800 w-full min-h-screen'
     >
       {/* Primary container */}
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
