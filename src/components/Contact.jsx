@@ -8,7 +8,7 @@ const Contact = () => {
       className='w-full min-h-screen bg-gradient-to-b from-black to-slate-800 p-4 text-white'
     >
       {/* Primary container */}
-      <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
+      <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full mt-20'>
 
         {/* Heading */}
         <div className='pb-2'>

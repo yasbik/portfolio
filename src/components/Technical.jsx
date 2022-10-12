@@ -121,7 +121,7 @@ const Technical = () => {
           </p>
 
           <p className='py-4 font-bold'>
-            These are the some of the tools/technologies I have worked with
+            These are the some of the tools/technologies I have worked with!
           </p>
         </div>
 

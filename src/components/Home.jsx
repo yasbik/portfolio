@@ -52,7 +52,7 @@ const Home = () => {
           <div>
             <Link 
               to='technical' smooth duration={500} 
-              className='group text-white w-fit px-4 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-orange-500 to-red-700 cursor-pointer'
+              className='group text-white w-fit px-4 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-orange-500 to-red-700 cursor-pointer mb-12'
             >
               Portfolio
               
@@ -72,7 +72,7 @@ const Home = () => {
           <img 
             src={HeroImage} 
             alt="My Personal Portrait" 
-            className='rounded-3xl px-4 mx-auto w-2/3 md:w-full mb-10' 
+            className='rounded-3xl px-4 mx-auto w-2/3 md:w-full mb-10 md:mt-20' 
           />
         </div>
       </div>
