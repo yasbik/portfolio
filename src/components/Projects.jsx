@@ -3,6 +3,7 @@ import ixalan from '../assets/portfolio/ixalan2.png';
 import chowtown from '../assets/portfolio/chowTown.png';
 import findingaurora from '../assets/portfolio/findingAurora.png';
 import wbport from '../assets/portfolio/portfolio.png';
+import gameOfLife from '../assets/portfolio/GameOfLife.png'
 
 const Projects = () => {
 
@@ -35,6 +36,13 @@ const Projects = () => {
       text: "Personal Portfolio Website",
       href: "https://github.com/yasbik/portfolio"
     },
+    {
+      id: 5,
+      src: gameOfLife,
+      title: "Game of Life ",
+      text: "(Simulation game demonstrating finite automaton)",
+      href: "https://github.com/yasbik/Game-of-Life"
+    }
   ];
 
   return (
