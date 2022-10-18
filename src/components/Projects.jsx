@@ -1,5 +1,5 @@
 import React from 'react';
-import ixalan from '../assets/portfolio/ixalan2.png';
+import ixalan from '../assets/portfolio/ixalan.png';
 import chowtown from '../assets/portfolio/chowTown.png';
 import findingaurora from '../assets/portfolio/findingAurora.png';
 import wbport from '../assets/portfolio/portfolio.png';
