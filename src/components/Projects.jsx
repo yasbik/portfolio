@@ -71,7 +71,11 @@ const Projects = () => {
               className='shadow-md shadow-gray-600 rounded-lg'
             >
               {/* Thumbnails */}
-              <a href={href}>
+              <a 
+                href={href}
+                target="_blank" 
+                rel="noreferrer"
+              >
                 <img 
                   src={src} 
                   alt="Project Thumbnail" 
