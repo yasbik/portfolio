@@ -25,23 +25,23 @@ const Projects = () => {
     },
     {
       id: 3,
+      src: gameOfLife,
+      title: "Game of Life ",
+      text: "(Simulation game demonstrating finite automaton)",
+      href: "https://github.com/yasbik/Game-of-Life"
+    },
+    {
+      id: 5,
       src: findingaurora,
       title: "Finding Aurora API ",
       text: "(An OpenAPI Specification (OAS) Project)",
       href: "https://github.com/yasbik/Finding-Aurora-API"
     },
     {
-      id: 4,
+      id: 5,
       src: wbport,
       text: "Personal Portfolio Website",
       href: "https://github.com/yasbik/portfolio"
-    },
-    {
-      id: 5,
-      src: gameOfLife,
-      title: "Game of Life ",
-      text: "(Simulation game demonstrating finite automaton)",
-      href: "https://github.com/yasbik/Game-of-Life"
     }
   ];
 
