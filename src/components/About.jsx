@@ -23,7 +23,7 @@ const About = () => {
       </p>
       
       <p className='mt-4 text-justify'>
-        I am passionate about the computer science field and spend most of my free time enhancing my coding skills, or learning new technology/software. I have completed two Software Development Internships, where I worked on several high-functioning and scalable projects. These internships have not only given me real-world experience, but they also taught me the aspects of collaborating in a team environment, further broadening my expertise and understanding of the full stack of software development.
+        I am passionate about the computer science field and spend most of my free time enhancing my coding skills, or learning new technology/software. I have completed a Software Development Internship, where I worked on several high-functioning and scalable projects. The internship has not only given me real-world experience, but they also taught me the aspects of collaborating in a team environment, further broadening my expertise and understanding of the full stack of software development.
       </p>
 
       <p className='mt-4 text-justify'>
