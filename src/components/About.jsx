@@ -19,15 +19,15 @@ const About = () => {
 
       {/* Description */}
       <p className='mt-4 text-justify'>
-        My name is Abu Yasin Sabik. I am a recent graduate from the University of Manitoba with a Bachelor of Science (B.Sc.) in Computer Science.  My fours years of studying computer science have given me a strong command of important programming and computer science concepts, as well as in-depth knowledge of core software engineering principles, development practices, and design patterns. 
+        My name is Abu Yasin Sabik. I am a graduate from the University of Manitoba with a Bachelor of Science (B.Sc.) in Computer Science.  My fours years of studying computer science have given me a strong command of important programming and computer science concepts, as well as in-depth knowledge of core software engineering principles, development practices, and design patterns. 
       </p>
       
       <p className='mt-4 text-justify'>
-        I am passionate about the computer science field and spend most of my free time enhancing my coding skills, or learning new technology/software. I have completed a Software Development Internship, where I worked on several high-functioning and scalable projects. The internship has not only given me real-world experience, but they also taught me the aspects of collaborating in a team environment, further broadening my expertise and understanding of the full stack of software development.
+        I am passionate about the computer science field and spend most of my free time enhancing my coding skills, or learning new technology/software. I have completed two Software Development Internships, where I worked on several high-functioning and scalable projects. The internships have not only given me real-world experience, but they also taught me the aspects of collaborating in a team environment, further broadening my expertise and understanding of the full stack of software development.
       </p>
 
       <p className='mt-4 text-justify'>
-      Currently, I am working as a Computer Science and Math Tutor for <a href="https://paper.co/">Paper</a>, where I tutor STEM students from varying grades and ability levels.  Aside from academia, I am also very passionate about the computer science field and spend most of my free time enhancing my coding skills or learning new technology/software.
+        Currently, I am working as a Software Developer in a technology company where I am continuously developing and maintaining high-functioning software applications. I am also a part-time Computer Science and Math Tutor for an educational technology company, where I tutor STEM students from varying grades and ability levels. Additionally, I have over two years of experience as a Business Analyst for a large, multinational food chain where, my data analytics and solution implementation led to a 20% increase in overall sales across all local branches in my city. Even aside from work and academia, I am also very passionate about the computer science field and spend most of my free time enhancing my coding skills or learning new technology/software.
       </p>
     </div>
   </div>
