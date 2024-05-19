@@ -29,8 +29,7 @@ const Home = () => {
                 className='font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-red-600 mx-2'
                 strings={[
                   "Abu Yasin Sabik.",
-                  "a Computer Science Graduate.",
-                  "an aspiring Software Engineer.",
+                  "a Software Developer.",
                   "a lifelong learner."
                 ]}
                 typeSpeed={50}
@@ -45,7 +44,7 @@ const Home = () => {
             className='text-gray-500 py-2 max-w-md mr-3' 
             align="justify"
           >
-            I am a recent graduate with a Bachelor's degree in Computer Science. I love programming and learning new tools/techology. 
+            I am a software developer with a Bachelor's degree in Computer Science. I love programming and learning new tools/techology. 
             I am currently working on improving my knowledge and skills in software design, development, testing, and debugging. Please take a look around!
           </p>
 
